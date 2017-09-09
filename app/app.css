@@ -1,0 +1,53 @@
+ .gx-overview-map .olControlOverviewMapElement {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+   #loading-mask{
+        background-color:white;
+        height:100%;
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        z-index:20000;
+    }
+    #loading{
+        height:auto;
+        position:absolute;
+        left:45%;
+        top:40%;
+        padding:2px;
+        z-index:20001;
+    }
+    #loading a {
+        color:#225588;
+    }
+    #loading .loading-indicator{
+        background:white;
+        color:#444;
+        font:bold 13px Helvetica, Arial, sans-serif;
+        height:auto;
+        margin:0;
+        padding:10px;
+    }
+    #loading-msg {
+        font-size: 10px;
+        font-weight: normal;
+    }
+    #loading-info {
+        font-size: 5px;
+        font-weight: normal;
+        left:0;
+    }
+.olControlOverviewMapElement {
+    padding: 0px 0px 0px 0px;
+    background-color: #00008B;
+    -moz-border-radius: 1em 0 0 0;
+}
+
+.olImageLoadError { 
+    /* when OL encounters a 404, don't display the pink image */
+    display: none !important;
+} 
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>   <head>  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <title>wsp.geo.pl dawniej wspolrzedne.pl i wspolrzedne.tk przeliczenie współrzędnych pomiędzy układami</title>
+        <!-- jquery -->        <script src="external/jquery/jquery-1.6.4.min.js"></script>
+        <!-- Google Maps -->   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=	
+AIzaSyDjfy9DdBWJ0azGgw5vcwC4j0KQVK4A64A"></script>
+        <!-- ExtJS    -->  <script type="text/javascript" src="external/ext-4.2.1.883/examples/shared/include-ext.js?theme=gray"></script>
+		<script type="text/javascript" src="external/ext-4.2.1.883/examples/shared/options-toolbar.js"></script>
+		<!-- OpenLayers -->
+        <script src="external/OpenLayers-2.13.1/OpenLayers.js"></script>
+        <script src="external/GeoWebCache/GeoWebCache.js"></script>
+        <!-- proj4js -->
+         <script type="text/javascript" src="external/proj4js/proj4js-compressed.js"></script>
+		<!-- GeoPortal DBR-->     
+		<script type="text/javascript" src="app/app.js"></script>
+		<link rel="stylesheet" type="text/css" href="app/app.css" />
+	</head>
+	<body >
+    <div id="loading-mask" style=""></div>
+    <div id="loading">
+        <div class="loading-indicator">
+            <img src="img/silk/map_magnify.png" width="32" height="32" style="margin-right:8px;float:left;vertical-align:top;"/>wsp.geo.pl<br /><span id="loading-msg">Ładowanie strony ... </span><br/>
+            <span id="loading-info">wsp.geo.pl dawniej wspolrzedne.pl i wspolrzedne.tk przeliczenie współrzędnych pomiędzy układami WGS-84 (wspólrzedne geograficzne), GUGIK-80 1965, 1992, 2000, GOOGLE. Ramki sekcyjne. </span>
+        </div>
+    </div>
+    <div id ="WGS84" style="display: none;"></div>
+        <div id ="GUGIK80" style="display: none;"></div>
+        <div id ="1992" style="display: none;"></div>
+        <div id ="2000v" style="display: none;"></div>
+        <div id ="2000vi" style="display: none;"></div>
+        <div id ="2000vii" style="display: none;"></div>
+        <div id ="2000viii" style="display: none;"></div> 
+        <div id ="19651" style="display: none;"></div>
+        <div id ="19652" style="display: none;"></div>
+        <div id ="19653" style="display: none;"></div>
+        <div id ="19654" style="display: none;"></div>
+        <div id ="19655" style="display: none;"></div>      
+        <div id ="900913" style="display: none;"></div>    
+				
+<!-- Start Open Web Analytics Tracker -->
+<script type="text/javascript">
+//<![CDATA[
+var owa_baseUrl = 'http://koneserowie.vivaldiego.wroclaw.pl/OWA/';
+var owa_cmds = owa_cmds || [];
+owa_cmds.push(['setSiteId', 'd0b6012f551958afd76a1ae090c817a7']);
+owa_cmds.push(['trackPageView']);
+owa_cmds.push(['trackClicks']);
+owa_cmds.push(['trackDomStream']);
+
+(function() {
+	var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+	owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
+	_owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+	var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+}());
+//]]>
+</script>
+<!-- End Open Web Analytics Code -->
+
+</body>
+
+</html>
