@@ -1,4 +1,5 @@
-#wsp.geo.pl
+# wsp.geo.pl
+
 http://wsp.geo.pl/
 Strona powstała w celach niekomercyjnych i autor nie bierze żadnej odpowiedzialności za jej użycie. Wykorzystano następujące biblioteki:
 
