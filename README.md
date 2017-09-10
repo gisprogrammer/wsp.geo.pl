@@ -15,7 +15,6 @@ Wszelkie pliki ciasteczek są użwane jedynie przez w/w biblioteki. Żadne Twoje
 licencja WTFPL
 
 Uwagi? Propozycja współpracy? Masz ochotę wesprzeć rozwój tej strony?
-
-PayPal – Płać wygodnie i bezpiecznie
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/wspgeopl/)
 Pisz śmiało! wsp(at)geo(dot)pl
 Dziękuję firmie Softline za udostępnienie domeny wsp.geo.pl
